@@ -1,0 +1,56 @@
+title: lzzrhx
+url: https://lzzrhx.github.io
+bash_user: lzzrhx@arch
+
+permalink: pretty
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+#  syntax_highlighter_opts:
+#    default_lang: csharp
+#    block:
+#      line_numbers: true
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+feed:
+  icon: /favicon.png
+  posts_limit: 100

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<section class="post">
+  <h2>{{ page.title }}</h2>
+  {% unless page.toc == false %}
+  {% include toc.html html=content id="toc" class="section-nav" ordered=true %}
+  {% endunless %}
+  {% if page.image %}<img src="/img/{{ page.image }}" />{% endif %}
+  {{ content }}
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+</section>
