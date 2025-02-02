@@ -645,4 +645,4 @@ A super basic game loop is in place with a player that can move around with the 
 
 Download the source code: [roguelike-devlog6.zip](/files/roguelike-devlog6.zip){:target="_blank"}
 
-Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/Roguelike){:target="_blank"}
+Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}

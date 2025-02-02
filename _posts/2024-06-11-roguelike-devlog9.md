@@ -39,4 +39,4 @@ text coming soon..
 
 text coming soon..
 
-Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/Roguelike){:target="_blank"}
+Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}

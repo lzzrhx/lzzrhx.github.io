@@ -748,4 +748,4 @@ Here's a little video: [https://youtu.be/0PV7XQGF4gY](https://youtu.be/0PV7XQGF4
 
 Download the source code: [roguelike-devlog8.zip](/files/roguelike-devlog8.zip){:target="_blank"}
 
-Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/Roguelike){:target="_blank"}
+Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}
