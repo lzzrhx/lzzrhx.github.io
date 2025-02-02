@@ -660,4 +660,4 @@ I'll temporarily modify *Map.cs* and *PathGraph.cs* a bit to test the pathfindin
 
 Download the source code: [roguelike-devlog3.zip](/files/roguelike-devlog3.zip){:target="_blank"}
 
-Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}
+Find the project on GitHub: [lzzrhx/roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}

@@ -566,4 +566,4 @@ And that's it for the first part of the BSP dungeon generator. In a later devlog
 
 Download the source code: [roguelike-devlog2.zip](/files/roguelike-devlog2.zip){:target="_blank"}
 
-Find the project on GitHub: [lzzrhx/Roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}
+Find the project on GitHub: [lzzrhx/roguelike](https://github.com/lzzrhx/roguelike){:target="_blank"}
