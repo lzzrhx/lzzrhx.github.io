@@ -1,0 +1,26 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+<title>{{ site.title }}</title>
+<link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+<link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+<updated>{{ site.time | date_to_xmlschema }}</updated>
+<id>{{ site.url }}/feed.xml</id>
+<webfeeds:icon>{{ site.url }}/favicon.png</webfeeds:icon>
+{% for post in site.posts %}{% unless post.hidden == true %}
+<entry>
+<title>{{ post.title }}</title>
+<link href="{{ site.url }}{{ post.url }}"/>
+<updated>{{ post.date | date_to_xmlschema }}</updated>
+<id>{{ site.url }}{{ post.id }}</id>
+<webfeeds:cover image="{{ site.url }}/img/{{ post.image }}" />
+<content type="html">
+{% if post.content contains "<!--summary-->" %}{{ post.content | split: "<!--/summary-->" | first | split: "<!--summary-->" | last | strip | xml_escape }}{% else %}{{ post.content | remove_first: '<h3 id="introduction">Introduction</h3>' | strip | truncatewords:30 | xml_escape }}{% endif %}
+</content>
+</entry>
+{% endunless %}{% endfor %}
+</feed>
