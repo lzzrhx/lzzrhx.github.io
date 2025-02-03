@@ -7,7 +7,7 @@ layout: default
   {% unless page.toc == false %}
   {% include toc.html html=content id="toc" class="section-nav" ordered=true %}
   {% endunless %}
-  {% if page.image %}<img src="/img/{{ page.image }}" />{% endif %}
+  {% if page.image %}<img src="/img/{{ page.image }}.png" />{% endif %}
   {{ content }}
   <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
 </section>

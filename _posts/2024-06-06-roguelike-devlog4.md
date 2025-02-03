@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# roguelike, devlog 4: Corridors"
-image: devlog4.png
+image: devlog4
 ---
 
 ### Introduction

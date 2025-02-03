@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# roguelike, devlog 5: Dijkstra maps"
-image: devlog5.png
+image: devlog5
 ---
 
 ### Introduction

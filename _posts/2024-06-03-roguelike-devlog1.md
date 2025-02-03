@@ -2,7 +2,7 @@
 layout: post
 title: "C# roguelike, devlog 1: About roguelikes"
 toc: false
-image: devlog1_01.png
+image: devlog1_01
 ---
 
 <!--summary-->

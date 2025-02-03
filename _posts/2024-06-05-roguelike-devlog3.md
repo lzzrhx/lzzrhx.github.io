@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# roguelike, devlog 3: Pathfinding algorithms (Breadth-first search and A*)"
-image: devlog3.png
+image: devlog3
 ---
 
 ### Introduction

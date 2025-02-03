@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# roguelike, devlog 7: Raylib and ImGui"
-image: devlog7.png
+image: devlog7
 ---
 
 ### Introduction

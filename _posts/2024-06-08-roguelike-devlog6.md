@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "C# roguelike, devlog 6: Shadowcasting"
-image: devlog6.png
+image: devlog6
 ---
 
 <!--![devlog](/img/devlog6.gif){:target="_blank"}-->
