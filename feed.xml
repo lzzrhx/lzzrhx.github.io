@@ -4,7 +4,7 @@ layout: none
 
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/feed.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
+<feed xmlns="http://www.w3.org/2005/Atom">
 <title>{{ site.title }}</title>
 <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
 <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
@@ -12,7 +12,6 @@ layout: none
 <id>{{ site.url }}/feed.xml</id>
 <author><name>{{ site.email }}</name><email>{{ site.email }}</email></author>
 <icon>{{ site.url }}/favicon.png</icon>
-<webfeeds:icon>{{ site.url }}/favicon.png</webfeeds:icon>
 {% for post in site.posts %}{% unless post.hidden == true %}<entry>
 <title>{{ post.title }}</title>
 <link href="{{ site.url }}{{ post.url }}"/>
