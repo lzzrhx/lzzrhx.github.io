@@ -17,7 +17,7 @@ layout: none
 <link href="{{ site.url }}{{ post.url }}"/>
 <updated>{{ post.date | date_to_xmlschema }}</updated>
 <id>{{ site.url }}{{ post.id }}</id>
-<webfeeds:cover image="{{ site.url }}/img/{{ post.image }}" \>
+<webfeeds:cover image="{{ site.url }}/img/{{ post.image }}" />
 <content type="html">
 {% if post.content contains "<!--summary-->" %}{{ post.content | split: "<!--/summary-->" | first | split: "<!--summary-->" | last | strip | xml_escape }}{% else %}{{ post.content | remove_first: '<h3 id="introduction">Introduction</h3>' | strip | truncatewords:30 | xml_escape }}{% endif %}
 </content>
