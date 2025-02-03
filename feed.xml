@@ -10,7 +10,7 @@ layout: none
 <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
 <updated>{{ site.time | date_to_xmlschema }}</updated>
 <id>{{ site.url }}/feed.xml</id>
-<author><email>{{ site.email }}</email></author>
+<author><name>{{ site.email }}</name><email>{{ site.email }}</email></author>
 <icon>{{ site.url }}/favicon.png</icon>
 {% for post in site.posts %}{% unless post.hidden == true %}<entry>
 <title>{{ post.title }}</title>
