@@ -244,10 +244,17 @@ figcaption {
 	font-weight: bold;
 }
 
+
 ul, ol {
 	list-style-position: inside;
 }
 
+
 ul {
 	list-style-type: "⁃ ";
 }
+
+.footnotes {
+  margin-top:75px;
+}
+

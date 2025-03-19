@@ -9,6 +9,8 @@ baseurl: ""
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
+  footnote_backlink_inline: true
+  footnote_link_text: "[%s]"
 #  syntax_highlighter_opts:
 #    default_lang: csharp
 #    block:

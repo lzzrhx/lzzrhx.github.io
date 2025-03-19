@@ -8,7 +8,7 @@ Sidey is licensed under an MIT license. Copyright (c) 2020 Ronalds Vilciņš.
 <br>
 
 Running the site locally:
-- `sudo pacman -S ruby rubygems`
+- `sudo pacman -S ruby rubygems ruby-default-gems`
 - `gem install jekyll bundler`
 - `cd laser-wolf.gihub.io`
 - `bundle install`
