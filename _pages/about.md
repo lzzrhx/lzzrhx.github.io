@@ -8,7 +8,7 @@ To get in touch you can reach me at <a href="mailto:{{ site.email }}">{{ site.em
 In addition to this website you can also find me on the following platforms:
 [GitHub](https://github.com/lzzrhx){:target="_blank"}, [Bluesky](https://lzzrhx.bsky.social){:target="_blank"} and [YouTube](https://youtube.com/@lzzrhx){:target="_blank"}.
 
-<<!--
+<!--
 [Steam](https://steamcommunity.com/id/lzzrhx/){:target="_blank"}
 [Backloggd](https://backloggd.com/u/lzzrhx/){:target="_blank"}
 [Last.fm](https://www.last.fm/user/lzzrhx){:target="_blank"}
