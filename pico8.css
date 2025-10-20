@@ -1,3 +1,7 @@
+/*////////////////////////////////////////////////////////////////////////////*/
+/* PICO-8 fargepalett */
+/*////////////////////////////////////////////////////////////////////////////*/
+
 :root {
     --color0:  #000000;
     --color1:  #1D2B53;
@@ -17,6 +21,10 @@
     --color15: #FFCCAA;
 }
 
+
+/*////////////////////////////////////////////////////////////////////////////*/
+
+
 body {
     background: var(--color0);
     color: var(--color7);
@@ -24,9 +32,6 @@ body {
 }
 
 main {
-    /*background: url("/img/pico8/fillp1.png");*/
-    /*background-color: var(--color1);*/
-    background: url("/img/pico8/fillp2.png");
     max-width:900px;
 }
 
@@ -36,6 +41,18 @@ a {
 
 p {
     margin: 0.75rem 0;
+}
+
+.header {
+    padding-bottom:2.5rem;
+}
+
+.footer, .kilder {
+    margin-top:2.5rem;
+}
+
+.zerobottommargin {
+    margin-bottom:0;
 }
 
 .quote {
@@ -49,29 +66,6 @@ p {
     margin-left:1rem;
 }
 
-img.p8img {
-    width:384px;
-}
-
-img.p8cart {
-    width:160px;
-}
-
-.caption {
-    width:100%;
-    text-align:center;
-    color: var(--color6);
-    margin-top:0.25rem;
-    font-size: .9rem;
-}
-
-.code {
-    font-size: .7rem;
-    max-width:384px;
-    margin-top:0.25rem;
-    text-align:center;
-}
-
 .imgs {
   display: flex;
   flex-wrap: wrap;
@@ -80,10 +74,28 @@ img.p8cart {
   margin:2.25rem 0;
 }
 
-.zerobottommargin {
-    margin-bottom:0;
+img.p8img {
+    width:384px;
 }
 
-.header {
-    padding-bottom:2.5rem;
+img.p8cart {
+    width:160px;
+}
+
+.caption, .kilder {
+    color: var(--color6);
+    font-size: .9rem;
+}
+
+.caption {
+    width:100%;
+    text-align:center;
+    margin-top:0.25rem;
+}
+
+.code {
+    font-size: .7rem;
+    max-width:384px;
+    margin-top:0.25rem;
+    text-align:center;
 }
