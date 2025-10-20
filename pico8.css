@@ -56,7 +56,7 @@ p {
     padding-bottom:2.5rem;
 }
 
-.footer, .kilder {
+.margintop {
     margin-top:2.5rem;
 }
 
@@ -106,8 +106,8 @@ img.p8cart {
 }
 
 .code {
-    font-size: .7rem;
     max-width:256px;
+    font-size: .7rem;
 }
 
 .zerobottommargin {
