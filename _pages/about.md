@@ -5,9 +5,10 @@ title: About
 
 To get in touch you can reach me at <a href="mailto:{{ site.email }}">{{ site.email }}  <img src="/img/mail1.gif" width="32" height="32"></a>
 
-In addition to this website you can also find me on the following platforms: [GitHub](https://github.com/lzzrhx){:target="_blank"}, [itch.io](https://lzzrhx.itch.io/){:target="_blank"}, [Bluesky](https://lzzrhx.bsky.social){:target="_blank"}, [Letterboxd](https://letterboxd.com/lzzrhx/){:target="_blank"}, [YouTube](https://youtube.com/@lzzrhx){:target="_blank"}, and [Last.fm](https://www.last.fm/user/lzzrhx){:target="_blank"}.
+In addition to this website you can also find me on the following platforms: [GitHub](https://github.com/lzzrhx){:target="_blank"}, [itch.io](https://lzzrhx.itch.io/){:target="_blank"}, [Bluesky](https://lzzrhx.bsky.social){:target="_blank"}, [Letterboxd](https://letterboxd.com/lzzrhx/){:target="_blank"}, and [YouTube](https://youtube.com/@lzzrhx){:target="_blank"}.
 
 <!--
+[Last.fm](https://www.last.fm/user/lzzrhx){:target="_blank"}
 [Mastodon](https://mastodon.social/@lzzrhx){:target="_blank"}
 [Steam](https://steamcommunity.com/id/lzzrhx/){:target="_blank"}
 [Backloggd](https://backloggd.com/u/lzzrhx/){:target="_blank"}
