@@ -1,5 +1,8 @@
 # laser-wolf.github.io
 
+> [!WARNING]
+> Moved to https://codeberg.org/lzzrhx/pages
+
 A GitHub pages website made using [Jekyll](https://jekyllrb.com/) and a modified version of the [Sidey](https://github.com/ronv/sidey) theme.
 
 
